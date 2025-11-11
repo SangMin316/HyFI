@@ -1,6 +1,10 @@
 # HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment
 
 ## Motivation
+We use hyperbolic space to tackle two challenges in brain–vision alignment: information imbalance and feature entanglement. Because representational capacity decreases near the origin and geodesics curve toward it, interpolating between semantic and perceptual embeddings along a hyperbolic geodesic achieves compression and fusion, thereby effectively mitigating two problems.
+
+
+
 ![motivation](./assets/fig1.png)
 (a) An illustration of the human visual system and neural signal acquisition. Semantic and perceptual visual information is processed in the brain, but information degradation occurs when neural activity is recorded. (b) Previous works aligned semantic and perceptual features through separate pathways, overlooking their entanglement in brain signals. (c) In contrast, interpolation in hyperbolic space enables the integration of perceptual and semantic visual features while naturally reducing representational complexity, thus facilitating better alignment with brain signals.
  
