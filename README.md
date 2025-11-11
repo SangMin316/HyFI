@@ -48,6 +48,27 @@ HyFI/                           # Root directory
 pip install -r requirements.txt
 ```
 
+## Data Preparation
+Download the **THINGS-Image** dataset from the [OSF repository](https://osf.io/jum2f/files/osfstorage) and the **THINGS-EEG** dataset from the [OSF repository](https://osf.io/anp5v/files/osfstorage), then place them in your data directory.
+
+Some previous works also provide preprocessed versions of these datasets on Hugging Face.  
+You can refer to the implementation available on [GitHub](https://github.com/HaitaoWuTJU/Uncertainty-aware-Blur-Prior).
+
+## Image Feature Preparation
+We prepare the visual features from a pre-trained image encoder for efficiency.
+
+Make the low-level CLIP feature (using Gaussian blur)
+```
+python Extract_CLIP_embedding_lowlevel.py
+```
+
+Make the high-level CLIP feature (using Fovea blur)
+```
+python Extract_CLIP_embedding.py
+```
+
+* Before running any scripts, make sure that the dataset path is correctly set in the code or configuration file.
+
 ## Running the Code
 ```
 python main.py
