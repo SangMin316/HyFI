@@ -1,5 +1,8 @@
 # HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment
 
+## Motivation
+
+
 ## 📁 Repository Structure
 ```
 HyFI/                           # Root directory
