@@ -1,6 +1,9 @@
 # HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment
 
-## Our work have been accepted at AAAI 2026 (16.7%)
+##
+This is the official code repository for our AAAI 2026 paper: HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment
+
+
 
 ## Motivation
 We use hyperbolic space to tackle two challenges in brain–vision alignment: information imbalance and feature entanglement. Because representational capacity decreases near the origin and geodesics curve toward it, interpolating between semantic and perceptual embeddings along a hyperbolic geodesic achieves compression and fusion, thereby effectively mitigating two problems.
