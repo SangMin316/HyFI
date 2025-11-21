@@ -1,5 +1,7 @@
 # HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment
 
+## Our work have been accepted at AAAI 2026 (16.7%)
+
 ## Motivation
 We use hyperbolic space to tackle two challenges in brain–vision alignment: information imbalance and feature entanglement. Because representational capacity decreases near the origin and geodesics curve toward it, interpolating between semantic and perceptual embeddings along a hyperbolic geodesic achieves compression and fusion, thereby effectively mitigating two problems.
 
@@ -87,8 +89,7 @@ python main.py
 
 We would like to acknowledge the use of the following publicly available datasets:
 - [A large and rich EEG dataset for modeling human visual object recognition](https://www.sciencedirect.com/science/article/pii/S1053811922008758) [THINGS-EEG]
-- [
-THINGS-data, a multimodal collection of large-scale datasets for investigating object representations in human brain and behavior](https://pubmed.ncbi.nlm.nih.gov/36847339/) [THINGS-MEG]
+- [THINGS-data, a multimodal collection of large-scale datasets for investigating object representations in human brain and behavior](https://pubmed.ncbi.nlm.nih.gov/36847339/) [THINGS-MEG]
 
 This codebase is inspired by several previous works in neural decoding:
 - [Decoding Natural Images from EEG for Object Recognition](https://github.com/eeyhsong/NICE-EEG) [ICLR 2024]
@@ -99,5 +100,15 @@ This codebase is inspired by several previous works in hyperbolic representation
 - [hyperbolic image text representations](https://github.com/facebookresearch/meru) [ICML 2023]
 - [Compositional entailment learning for hyperbolic vision-language models](https://github.com/PalAvik/hycoclip) [ICLR 2025]
 
+## Citation
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{jo2026hyfi,
+  author    = {Jo, Sangmin and Jeong, Wootaek and Heo, Da-Woon and Hwang, Yoohwan and Suk, Heung-Il},
+  title     = {HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  year      = {2026},
+}
 
 
