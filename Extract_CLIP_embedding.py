@@ -23,7 +23,9 @@ print(device)
 
 model_list = ['RN101','ViT-B/32', 'ViT-B/16', 'ViT-L/14', 'ViT-H-14']
 
-brain_data = 'MEG'
+brain_data = 'EEG'
+# brain_data = 'MEG'
+
 for model_name in model_list:
     model_name
     device = "cuda" if torch.cuda.is_available() else "cpu"
