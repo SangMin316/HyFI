@@ -59,6 +59,8 @@ HyFI/                           # Root directory
 - Required libraries are listed in `requirements.txt`.
 
 ```
+conda create -n hyfi
+conda activate hyfi
 pip install -r requirements.txt
 ```
 
