@@ -105,8 +105,8 @@ This codebase is inspired by several previous works in neural decoding:
 - [Bridging the Vision-Brain Gap with an Uncertainty-Aware Blur Prior](https://github.com/HaitaoWuTJU/Uncertainty-aware-Blur-Prior) [CVPR 2025]
 
 This codebase is inspired by several previous works in hyperbolic representation learning:
-- [hyperbolic image text representations](https://github.com/facebookresearch/meru) [ICML 2023]
-- [Compositional entailment learning for hyperbolic vision-language models](https://github.com/PalAvik/hycoclip) [ICLR 2025]
+- [Hyperbolic Image-Text Representations](https://github.com/facebookresearch/meru) [ICML 2023]
+- [Compositional Entailment Learning for Hyperbolic Vision-Language Models](https://github.com/PalAvik/hycoclip) [ICLR 2025]
 
 ## Citation
 If you find this work useful, please cite:
