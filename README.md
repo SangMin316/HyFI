@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ## Data Preparation
 - Make your data directory
-- Download the data ( **THINGS-Image** :  [OSF repository](https://osf.io/jum2f/files/osfstorage, **THINGS-EEG**: [OSF repository])
+- Download the data ( **THINGS-Image** : [OSF repository](https://osf.io/jum2f/files/osfstorage))
 - run the preprocess data
 
 You can download preprocessed EEG features at [[Link]](https://huggingface.co/datasets/SangminJo/HyFI/tree/main).
