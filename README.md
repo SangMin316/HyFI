@@ -65,11 +65,12 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-Download the **THINGS-Image** dataset from the [OSF repository](https://osf.io/jum2f/files/osfstorage) and the **THINGS-EEG** dataset from the [OSF repository](https://osf.io/anp5v/files/osfstorage), then place them in your data directory.
+- Make your data directory
+- Download the data ( **THINGS-Image** :  [OSF repository](https://osf.io/jum2f/files/osfstorage, **THINGS-EEG**: [OSF repository])
+- run the preprocess data
 
-Some previous works also provide preprocessed versions of these datasets on Hugging Face.  
-You can refer to the implementation available on [GitHub](https://github.com/HaitaoWuTJU/Uncertainty-aware-Blur-Prior).
-
+You can dowonload preprocessed EEG features at [LINK](https://huggingface.co/datasets/SangminJo/HyFI/tree/main).
+  
 ## Image Feature Preparation
 We prepare the visual features from a pre-trained image encoder for efficiency.
 
@@ -84,6 +85,8 @@ python Extract_CLIP_embedding.py
 ```
 
 * Before running any scripts, make sure that the dataset path is correctly set in the code or configuration file.
+* You can dowonload preprocessed augmented image features at [LINK](https://huggingface.co/datasets/SangminJo/HyFI/tree/main).
+
 
 ## Running the Code
 ```
